@@ -1,11 +1,3 @@
-#[Anuj Ashok Kolekar]
-#[20226315]
-#[MMA]
-#[2021W]
-#[MMA 869]
-#[16th August 2020]
-
-#Answer to Question 1 ,Part 1[a]
 
 #Importing the required libraries and dataset
 
@@ -20,7 +12,7 @@ from yellowbrick.cluster import SilhouetteVisualizer
 from yellowbrick.datasets import load_nfl
 from scipy.spatial import distance
 
-data=pd.read_csv('C:/Users/anuj/Documents/Anuj/MMA/Maching Learning & AI/Individual Assignment/jewelry_customers.csv')
+data=pd.read_csv('jewelry_customers.csv')
 
 data.head()
 
